@@ -6,7 +6,7 @@ RunMain(
         vector_strings_for_classes, 
         image_data_directory_filename,
         c('vgg16','xception','resnet50','resnetv2'), -----> Transfer models supported 
-        list(c(64,64,3),c(71,71,3),c(197,197,3),c(139,139,3)), Input dimensions for above ------>
+        list(c(64,64,3),c(71,71,3),c(197,197,3),c(139,139,3)), ------> Input dimensions for above 
         image_file_extension
         )
         
